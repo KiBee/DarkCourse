@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block title %}
+    Requisition list
+{% endblock %}
+
+{% block styles %}
+    <link rel="stylesheet" href="{% static 'css/req.css' %}">
+{% endblock %}
+
+{% block main %}
+    <div class="requisitions-list">
+        <div class="head-list">
+            <div class="input-group mb-3 search-field">
+                <div class="input-group-prepend">
+                    <button class="input-group-text" id="basic-addon1">🔎</button>
+                </div>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                       aria-describedby="basic-addon1">
+            </div>
+            <div class="req-list">
+                <div class="list-group">
+                    {% for req in requisitions %}
+                        <a href="#" class="requisition">
+                            <img src="{% static 'img/main/req.png' %}" alt="req-img">
+                            <div class="text-block">
+                                <div>
+                                    <h5>{{ req.head }}</h5>
+                                    <p>{{ req.about }}</p>
+                                </div>
+                            </div>
+                            <h3>{{ req.price }}</h3>
+                        </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <menu>
+            <li id="hard-skills" href="#">HARD SKILLS</li>
+            <li id="soft-skills" href="#">SOFT SKILLS</li>
+            <li id="other" href="#">OTHERS</li>
+        </menu>
+    </div>
+{% endblock %}

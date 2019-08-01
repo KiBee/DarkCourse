@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block title %}
+    Create requisition
+{% endblock %}
+
+{% block styles %}
+    <link rel="stylesheet" href="{% static 'css/req.css' %}">
+    <link rel="stylesheet" href="{% static 'css/create_req.css' %}">
+{% endblock %}
+
+{% block main %}
+    <form>
+        <div class="form-group col-md-6">
+            <label for="inputEmail4">Что вам нужно?</label>
+            <input type="search" class="form-control" id="inputEmail4" placeholder="Что мы ищем?">
+        </div>
+        <div class="form-group col-md-6">
+            <div class="col-md-12 btn-group btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-secondary active">
+                    <input type="radio" name="options" id="option1" autocomplete="off" checked> Личная встреча
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="option2" autocomplete="off"> Онлайн встреча
+                </label>
+            </div>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputAddress">Регулярность занятий</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Как часто будем учиться???">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="napr">Направление деятельности</label>
+            <input type="text" class="form-control" id="napr" placeholder="В каком направлении движемся???">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="details">Детали и пожелания</label>
+            <input type="text" class="form-control" id="details" placeholder="Есть отзыв? Ждём!">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="date-time">Дата и время</label>
+            <input type="datetime-local" class="form-control" id="date-time" placeholder="Есть отзыв? Ждём!">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="price">Стоимость</label>
+            <input type="text" class="form-control" id="price" placeholder="И по какой цене?">
+        </div>
+        <button type="submit" class="btn btn-primary">Опубликовать</button>
+    </form>
+
+    <script src="{% static 'js/script.js' %}"></script>
+{% endblock %}

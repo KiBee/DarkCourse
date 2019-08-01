@@ -1,0 +1,98 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block styles %}
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+{% endblock %}
+
+{% block main %}
+
+    <section class="pop-cat">
+        <div class="row-pop">
+            <a href="#">
+                <img class="pop-cat-img" src="{% static 'img/main/pop-a.png' %}" alt="">
+                <p class="pop-cat-text">Категория 1</p>
+            </a>
+            <a href="#">
+                <img class="pop-cat-img" src="{% static 'img/main/pop-b.png' %}" alt="">
+                <p class="pop-cat-text">Категория 2</p>
+            </a>
+            <a href="#">
+                <img class="pop-cat-img" src="{% static 'img/main/pop-c.png' %}" alt="">
+                <p class="pop-cat-text">Категория 3</p>
+            </a>
+            <a href="#">
+                <img class="pop-cat-img" src="{% static 'img/main/pop-d.png' %}" alt="">
+                <p class="pop-cat-text">Категория 4</p>
+            </a>
+        </div>
+        <div class="row-pop">
+            <a href="#">
+                <img class="pop-cat-img" src="{% static 'img/main/pop-e.png' %}" alt="">
+                <p class="pop-cat-text">Категория 5</p>
+            </a>
+            <a href="#">
+                <img class="pop-cat-img" src="{% static 'img/main/pop-f.png' %}" alt="">
+                <p class="pop-cat-text">Категория 6</p>
+            </a>
+            <a href="#">
+                <img class="pop-cat-img" src="{% static 'img/main/pop-g.png' %}" alt="">
+                <p class="pop-cat-text">Категория 7</p>
+            </a>
+            <a href="#">
+                <img class="pop-cat-img" src="{% static 'img/main/pop-h.png' %}" alt="">
+                <p class="pop-cat-text">Категория 8</p>
+            </a>
+        </div>
+    </section>
+    <section class="tops row justify-content-center">
+        <div class="top-req col">
+            <div class="requisitions-list">
+                <div class="a-list">
+                    <div class="active head-pop">Популярные задания</div>
+                    {% for tr in top_req %}
+                        <a href="#" class="requisition">
+                            <img src="{% static 'img/main/req.png' %}" alt="req-img">
+                            <div class="text-block">
+                                <div>
+                                    <h5>{{ tr.head }}</h5>
+                                    <p>{{ tr.about }}</p>
+                                </div>
+                                <h3>{{ tr.price }}</h3>
+                            </div>
+                        </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="top-exec col">
+            <div class="executes-list">
+                <div class="a-list">
+                    <div class="active head-pop">Популярные исполнители</div>
+                    {% for tex in top_exec %}
+                        <a href="#" class="execute">
+                            <img src="{% static 'img/main/man.png' %}" alt="man-img">
+                            <div class="flex-column">
+                                <div class="text-exec">
+                                    <h5>{{ tex.head }}</h5>
+                                    <small>
+                                        <img src="{% static 'img/main/rait0.png' %}" alt="">
+                                        <img src="{% static 'img/main/rait0.png' %}" alt="">
+                                        <img src="{% static 'img/main/rait0.png' %}" alt="">
+                                        <img src="{% static 'img/main/rait0.png' %}" alt="">
+                                        <img src="{% static 'img/main/rait0.png' %}" alt="">
+                                    </small>
+                                </div>
+                                <p>{{ tex.about }}</p>
+                            </div>
+                        </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="{% static 'js/script.js' %}"></script>
+
+{% endblock %}

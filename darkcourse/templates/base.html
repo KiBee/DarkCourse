@@ -1,0 +1,70 @@
+<!doctype html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    {% block styles %}
+    {% endblock %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>
+        {% block title %}
+            Dark Course
+        {% endblock %}
+    </title>
+</head>
+<body>
+<header>
+    <a class="logo" href="{% url 'home' %}">
+        <img src="{% static 'img/Logo.png' %}" alt="LOGO" id="logo">
+    </a>
+    <h2 id="title">Dark Course</h2>
+    <nav>
+        <a href="{% url 'create_requisition' %}">Создать заявку</a>
+        <a href="{% url 'requisitions' %}">Клиенты</a>
+        <a href="{% url 'execute' %}">Исполнители</a>
+        <a href="#">FAQ</a>
+    </nav>
+    <div id="user">
+        {% if user.auth %}
+            <div>
+                <img src="{% static 'img/avatars/000001.png' %}" id="avatar" alt="avatar">
+            </div>
+            <div id="about">
+                <span class="name">Питтер</span><br>
+                <span class="surname">Паркер</span>
+            </div>
+            <a href="#">Выход</a>
+        {% else %}
+            <a href="{% url 'profile' %}" id="auth">Войти</a><a href="#" id="reg">Зарегистрироваться</a>
+        {% endif %}
+    </div>
+</header>
+<section id="full">
+    <main>
+        {% block main %}
+
+        {% endblock %}
+    </main>
+</section>
+<footer class="row">
+    <nav class="col-10">
+        <a href="{% url 'create_requisition' %}">Создать заявку</a>
+        <a href="{% url 'requisitions' %}">Клиенты</a>
+        <a href="{% url 'execute' %}">Исполнители</a>
+        <a href="#">FAQ</a>
+    </nav>
+    <div class="social col-2">
+        <a href="http://www.fb.com"><img src="{% static 'img/footer/fb.png' %}" alt=""></a>
+        <a href="http://www.vk.com"><img src="{% static 'img/footer/vk.png' %}" alt=""></a>
+        <a href="http://www.google.com"><img src="{% static 'img/footer/google.png' %}" alt=""></a>
+        <a href="http://www.instagram.com"><img src="{% static 'img/footer/insta.png' %}" alt=""></a>
+    </div>
+</footer>
+<script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>

@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="00713311-c7b5-4244-8679-d2c09d632734" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/accounts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/accounts/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/accounts/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/accounts/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/accounts/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/accounts/static/css/create_acc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/accounts/static/css/profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/accounts/static/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/accounts/templates/accounts/create_acc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/accounts/templates/accounts/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/accounts/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/accounts/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/accounts/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/executers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/executers/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/executers/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/executers/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/executers/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/executers/static/css/exec.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/executers/static/img/menu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/executers/static/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/executers/templates/executes/exec_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/executers/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/executers/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/executers/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/requisition/static/css/create_req.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/requisition/static/css/req.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/requisition/static/img/menu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/requisition/templates/requisition/create_req.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/img/footer/fb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/img/footer/google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/img/footer/insta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/img/footer/vk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/img/main/back-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/img/main/back-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/img/main/man.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/img/main/pop-a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/img/main/pop-b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/img/main/pop-c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/img/main/pop-d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/img/main/pop-e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/img/main/pop-f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/img/main/pop-g.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/img/main/pop-h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/img/main/rait0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/img/main/rait1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/img/main/req.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/static/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/darkcourse/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/darkcourse/darkcourse/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/darkcourse/darkcourse/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/darkcourse/darkcourse/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/darkcourse/darkcourse/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/darkcourse/darkcourse/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/darkcourse/darkcourse/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/darkcourse/requisition/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/darkcourse/requisition/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/darkcourse/requisition/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/darkcourse/requisition/static/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/darkcourse/requisition/templates/requisition/req_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/darkcourse/requisition/templates/requisition/req_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/darkcourse/requisition/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/darkcourse/requisition/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/darkcourse/requisition/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/darkcourse/requisition/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/darkcourse/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/darkcourse/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/darkcourse/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/darkcourse/static/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/darkcourse/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/darkcourse/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/darkcourse/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/darkcourse/templates/index.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/darkcourse/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="52" column="10" lean-forward="true" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/darkcourse/static/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="499">
+              <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="VProgramMist" />
+        <option value="Valeriy MaximovF" />
+        <option value="Abibaser" />
+      </list>
+    </option>
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="backup" />
+      </map>
+    </option>
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="65d05c89-8515-4ee8-ac25-ea1a2b317f6e" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="VProgramMist" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="DarkCourse" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/darkcourse/requisition/templates/requisition/index.html" />
+        <option value="$PROJECT_DIR$/darkcourse/requisition/templates/requisition/base.html" />
+        <option value="$PROJECT_DIR$/darkcourse/templates/register.html" />
+        <option value="$PROJECT_DIR$/darkcourse/darkcourse/views.py" />
+        <option value="$PROJECT_DIR$/darkcourse/requisition/models.py" />
+        <option value="$PROJECT_DIR$/darkcourse/profiler/models.py" />
+        <option value="$PROJECT_DIR$/darkcourse/profiler/migrations/fields.py" />
+        <option value="$PROJECT_DIR$/darkcourse/profiler/fields.py" />
+        <option value="$PROJECT_DIR$/darkcourse/static/css/home.css" />
+        <option value="$PROJECT_DIR$/darkcourse/templates/index.html" />
+        <option value="$PROJECT_DIR$/darkcourse/executers/templates/requisition/exec_list.html" />
+        <option value="$PROJECT_DIR$/darkcourse/executers/urls.py" />
+        <option value="$PROJECT_DIR$/darkcourse/executers/views.py" />
+        <option value="$PROJECT_DIR$/darkcourse/executers/static/css/exec.css" />
+        <option value="$PROJECT_DIR$/darkcourse/requisition/templates/requisition/req_list.html" />
+        <option value="$PROJECT_DIR$/darkcourse/requisition/static/css/req.css" />
+        <option value="$PROJECT_DIR$/darkcourse/executers/templates/executes/exec_list.html" />
+        <option value="$PROJECT_DIR$/darkcourse/requisition/views.py" />
+        <option value="$PROJECT_DIR$/darkcourse/requisition/static/css/create_req.css" />
+        <option value="$PROJECT_DIR$/darkcourse/requisition/templates/requisition/create_req.html" />
+        <option value="$PROJECT_DIR$/darkcourse/darkcourse/urls.py" />
+        <option value="$PROJECT_DIR$/darkcourse/accounts/urls.py" />
+        <option value="$PROJECT_DIR$/darkcourse/requisition/urls.py" />
+        <option value="$PROJECT_DIR$/darkcourse/accounts/views.py" />
+        <option value="$PROJECT_DIR$/darkcourse/darkcourse/settings.py" />
+        <option value="$PROJECT_DIR$/darkcourse/accounts/static/css/create_acc.css" />
+        <option value="$PROJECT_DIR$/darkcourse/accounts/static/js/script.js" />
+        <option value="$PROJECT_DIR$/darkcourse/requisition/static/js/script.js" />
+        <option value="$PROJECT_DIR$/darkcourse/static/js/script.js" />
+        <option value="$PROJECT_DIR$/darkcourse/accounts/templates/accounts/profile.html" />
+        <option value="$PROJECT_DIR$/darkcourse/accounts/static/css/profile.css" />
+        <option value="$PROJECT_DIR$/darkcourse/templates/base.html" />
+        <option value="$PROJECT_DIR$/darkcourse/static/css/style.css" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="233" />
+    <option name="y" value="-8" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DarkCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DarkCourse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DarkCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DarkCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="darkcourse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DarkCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DarkCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="darkcourse" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/darkcourse/accounts/static/css" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\Python\Django\DarkCourse\darkcourse\static\img\main" />
+      <recent name="D:\Projects\Python\Django\DarkCourse\darkcourse\profiler" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\Python\Django\DarkCourse\darkcourse\accounts\static\css" />
+      <recent name="D:\Projects\Python\Django\DarkCourse\darkcourse\accounts\templates\accounts" />
+      <recent name="D:\Projects\Python\Django\DarkCourse\darkcourse\accounts" />
+      <recent name="D:\Projects\Python\Django\DarkCourse\darkcourse\requisition\static" />
+      <recent name="D:\Projects\Python\Django\DarkCourse\darkcourse\requisition\static\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Start" type="Python.DjangoServer" factoryName="Django server">
+      <module name="DarkCourse" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="darkcourse.settings" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Projects\Python\Django\DarkCourse\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <module name="DarkCourse" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Projects\Python\Django\DarkCourse\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00713311-c7b5-4244-8679-d2c09d632734" name="Default Changelist" comment="" />
+      <created>1559969885542</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559969885542</updated>
+      <workItem from="1559969899210" duration="8504000" />
+      <workItem from="1559978830365" duration="13824000" />
+      <workItem from="1559994357436" duration="48678000" />
+    </task>
+    <task id="LOCAL-00001" summary="First Blood!&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;                                            🍪 COOKIE">
+      <created>1559990775484</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559990775485</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First Blood!&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;                                            🍪 COOKIE">
+      <created>1559991155551</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559991155551</updated>
+    </task>
+    <task id="LOCAL-00003" summary="First Blood!&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;                                            🍪 COOKIE">
+      <created>1559991488465</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559991488465</updated>
+    </task>
+    <task id="LOCAL-00004" summary="First Blood!&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;                                            🍪 COOKIE">
+      <created>1559991685547</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559991685547</updated>
+    </task>
+    <task id="LOCAL-00005" summary="First Blood!&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;                                            🍪 COOKIE">
+      <created>1559991886862</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559991886862</updated>
+    </task>
+    <task id="LOCAL-00006" summary="First Blood!&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;                                            🍪 COOKIE">
+      <created>1559992734060</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559992734060</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add:&#10;   Footer,&#10;   Main sections,">
+      <created>1560002323538</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1560002323538</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="71006000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.14222713" />
+      <window_info id="Structure" order="1" sideWeight="0.501548" side_tool="true" weight="0.14057332" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4983462" visible="true" weight="0.32606438" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49944875" weight="0.32917964" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.33125648" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005513" side_tool="true" weight="0.32917964" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3281412" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="13" sideWeight="0.49944875" weight="0.32917964" />
+      <window_info active="true" anchor="bottom" id="SVN Repositories" order="14" weight="0.32917964" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Blood!&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;                                             COOKIE" />
+    <MESSAGE value="Add:&#10;   Footer,&#10;   Main sections," />
+    <option name="LAST_COMMIT_MESSAGE" value="Add:&#10;   Footer,&#10;   Main sections," />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/darkcourse/requisition/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/requisition/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/profiler/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/profiler/fields.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="86" lean-forward="true" selection-start-line="6" selection-start-column="86" selection-end-line="6" selection-end-column="86" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/darkcourse/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/darkcourse/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/executers/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/executers/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/requisition/static/img/menu.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/static/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="140" lean-forward="true" selection-end-line="154" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/executers/static/css/exec.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="123" column="1" lean-forward="true" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/executers/templates/executes/exec_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/requisition/templates/requisition/req_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/requisition/static/css/req.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="108" column="13" lean-forward="true" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/requisition/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/darkcourse/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="65" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/requisition/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/accounts/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/accounts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/darkcourse/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+          <folding>
+            <element signature="e#634#666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/requisition/templates/requisition/create_req.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/requisition/static/css/create_req.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="21" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/darkcourse/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="47" column="48" lean-forward="true" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/accounts/static/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/requisition/static/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/accounts/static/css/profile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/static/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/accounts/templates/accounts/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/accounts/static/css/create_acc.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/accounts/templates/accounts/create_acc.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="52" column="73" lean-forward="true" selection-start-line="52" selection-start-column="73" selection-end-line="52" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="52" column="10" lean-forward="true" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/darkcourse/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

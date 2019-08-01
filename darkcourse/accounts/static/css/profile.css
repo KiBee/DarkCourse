@@ -1,0 +1,41 @@
+form {
+    margin: auto;
+}
+
+button {
+    margin-left: 550px;
+    width: 40%;
+}
+
+.form-group {
+    margin: 20px auto;
+}
+
+.btn-group {
+    margin: 10px auto;
+}
+
+.form-row {
+    margin: 20px auto auto auto;
+    text-align: center;
+}
+
+.center-block {
+    margin: auto;
+    text-align: center;
+}
+
+#radio-button {
+    margin: 50px auto auto auto;
+    text-align: center;
+}
+
+.checkbox {
+    display: inline-block;
+    margin: 0;
+    line-height: 21px;
+}
+
+#pnlTest {
+    display: none
+}

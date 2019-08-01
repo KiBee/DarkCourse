@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block title %}
+    Executions list
+{% endblock %}
+
+{% block styles %}
+    <link rel="stylesheet" href="{% static 'css/exec.css' %}">
+{% endblock %}
+
+{% block main %}
+    <div class="exec-list">
+        <div class="head-list">
+            <div class="input-group mb-3 search-field">
+                <div class="input-group-prepend">
+                    <button class="input-group-text" id="basic-addon1">🔎</button>
+                </div>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                       aria-describedby="basic-addon1">
+            </div>
+            <div class="executes-list">
+                <div class="list-group">
+                    {% for exec in executes %}
+                        <a href="#" class="execute">
+                            <img src="{% static 'img/main/man.png' %}" alt="man-img">
+                            <div class="flex-column">
+                                <div class="text-exec">
+                                    <h5>{{ exec.head }}</h5>
+                                    <small>
+                                        <img src="{% static 'img/main/rait0.png' %}" alt="">
+                                        <img src="{% static 'img/main/rait0.png' %}" alt="">
+                                        <img src="{% static 'img/main/rait0.png' %}" alt="">
+                                        <img src="{% static 'img/main/rait0.png' %}" alt="">
+                                        <img src="{% static 'img/main/rait0.png' %}" alt="">
+                                    </small>
+                                </div>
+                                <p>{{ exec.about }}</p>
+                            </div>
+                        </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <menu>
+            <li id="hard-skills" href="#">HARD SKILLS</li>
+            <li id="soft-skills" href="#">SOFT SKILLS</li>
+            <li id="other" href="#">OTHERS</li>
+        </menu>
+    </div>
+{% endblock %}
